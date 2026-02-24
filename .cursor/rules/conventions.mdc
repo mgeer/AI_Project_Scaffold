@@ -1,0 +1,6 @@
+---
+description: 项目开发规范（模块化、安全、测试、环境隔离、代码质量、可观测性）
+alwaysApply: true
+---
+
+遵循 @CLAUDE.md 中定义的所有开发规范。
