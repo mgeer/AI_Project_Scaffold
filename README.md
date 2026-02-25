@@ -19,12 +19,13 @@ git commit -m "chore: init from AI_Project_Scaffold template"
 ## 包含内容
 
 - **OpenSpec 工作流**：支持 Cursor 和 Claude Code 的斜杠命令（`/opsx:propose`、`/opsx:apply`、`/opsx:archive`）
-- **CLAUDE.md**：六大开发规范约束（单一来源，Cursor 和 Claude Code 共用）
+- **micro_service/CLAUDE.md**：内部微服务六大开发规范约束
+- **refactor/CLAUDE.md**：遗留项目重构规范（C++ 微服务）
 - **openspec/config.yaml**：OpenSpec per-artifact 规则
 
 ## 开发规范
 
-规范详见 [CLAUDE.md](./CLAUDE.md)，包含以下六大约束（按优先级排序）：
+规范详见 [micro_service/CLAUDE.md](./micro_service/CLAUDE.md)，包含以下六大约束（按优先级排序）：
 
 1. **安全约束** — SQL/命令注入防护、敏感字段加密、依赖审计
 2. **模块化约束** — DDD 四层架构（Interface / Application / Domain / Infrastructure），含各层判断规则与异常跨层转换规范
